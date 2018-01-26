@@ -1,9 +1,9 @@
 def roll_call_dwarves(arr)
-  arr.collect { |x, i| print "#{i}.*#{x}" }
+  arr.map { |x, i| print "#{i}.*#{x}" }
 end
 
 def summon_captain_planet(arr)
-  arr.map { |x| "#{x.capitalize}!" }
+  arr.collect { |x| "#{x.capitalize}!" }
 end
 
 def long_planeteer_calls(arr)
