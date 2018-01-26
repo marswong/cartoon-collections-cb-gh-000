@@ -1,5 +1,5 @@
 def roll_call_dwarves(arr)
-  arr.collect.with_index { |x, i| print "#{i}.*#{x}" }
+  arr.collect.with_index { |x, i| print "#{i + 1}.*#{x}" }
 end
 
 def summon_captain_planet(arr)
